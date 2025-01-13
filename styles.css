@@ -4,3 +4,13 @@
   justify-content: space-evenly; /* Distributes items evenly with equal spacing */
   gap: 10px; /* Optional: Adds spacing between rows and columns */
 }
+
+.item {
+  flex: 1 1 calc(25% - 10px); /* Ensures each item takes 25% width minus the gap */
+  min-width: 150px; /* Prevents items from becoming too small */
+  text-align: center;
+  padding: 10px;
+  background-color: lightblue;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
